@@ -24,7 +24,8 @@ npm -v
    Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/yourusername/react-resume.git
+    git remote add origin https://github.com/Kalparatna/Resume-Maker.git
+
    ```
 
 2. **Navigate to the project directory**
@@ -32,7 +33,7 @@ npm -v
    Change to the project folder:
 
    ```bash
-   cd react-resume
+   cd 
    ```
 
 3. **Install dependencies**
