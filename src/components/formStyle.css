@@ -1,0 +1,141 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for both input and preview sections */
+  .container {
+    max-width: 750px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    background-color: #34495e;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Input section */
+  .input-section {
+    width: 100%;
+    padding: 25px;
+    background-color: #2c3e50;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Section titles (Experience, Education, etc.) */
+  .input-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e74c3c;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 8px;
+  }
+  
+  /* Add button style (Experience, Education, etc.) */
+  .add-btn {
+    background-color: #2980b9;
+    padding: 12px 18px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-btn:hover {
+    background-color: #1abc9c;
+  }
+  
+  /* Input fields (text, textarea) */
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #7f8c8d;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #34495e;
+    color: #ecf0f1;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Textarea specific style */
+  textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  /* Remove buttons */
+  .remove-btn {
+    background-color: #e74c3c;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  
+  .remove-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Padding and gap between items */
+  .input-section .item {
+    margin-bottom: 25px;
+  }
+  
+  /* Button Style for Generate Resume */
+  .print-btn {
+    background-color: #27ae60;
+    padding: 14px 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .print-btn:hover {
+    background-color: #2ecc71;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 20px;
+    }
+  
+    .input-section {
+      padding: 20px;
+    }
+  
+    input, textarea {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .add-btn, .remove-btn, .print-btn {
+      font-size: 14px;
+      padding: 10px 14px;
+    }
+  }
+  
